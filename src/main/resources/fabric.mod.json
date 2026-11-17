@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "nofog",
+  "version": "${version}",
+  "name": "No Fog",
+  "description": "Removes all fog (distance, underwater, lava, nether) from the game.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["nofog.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.8.9"
+  }
+}
